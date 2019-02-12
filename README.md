@@ -1,13 +1,12 @@
-#This version is for a tailor-made version for a user in telegram @iPad8964
-# as his channels for IOS had been regularly blocked. And required a mirror fowarding as required.
+# This version is for a tailor-made version for a user in telegram @iPad8964 as his channels for IOS had been regularly blocked. And required a mirror fowarding as required.
 
-#This version had been made for telegram mirroring only.
+# This version had been made for telegram mirroring only.
 
-#Please have a shoutout for BotCast for his own #BotCast development.
+# Please have a shoutout for BotCast Developer for his own #BotCast development.
 
+__________________________________________________________________________________________
 
-
-# BotCast - Telegram Broadcasting Bot
+# Telegram Broadcasting Bot
 
 * [Setup](#setup)
 * [Configuration](#configuration)
