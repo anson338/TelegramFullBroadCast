@@ -1,3 +1,12 @@
+#This version is for a tailor-made version for a user in telegram @iPad8964
+# as his channels for IOS had been regularly blocked. And required a mirror fowarding as required.
+
+#This version had been made for telegram mirroring only.
+
+#Please have a shoutout for BotCast for his own #BotCast development.
+
+
+
 # BotCast - Telegram Broadcasting Bot
 
 * [Setup](#setup)
@@ -107,41 +116,3 @@ You can now start the bot with this command in **BotCast** root path: `yarn star
 ```
 
 5. You must restart the bot process
-
-## Add Slack broadcast channel
-
-1. Create an incoming webhook for the channel you want to broadcast to: [incoming webhook integration](https://my.slack.com/services/new/incoming-webhook/)
-2. Fill the `config.js` connectors section with a new connector:
-
-```
-{
-  text: 'my favorite channel',
-  callback_data: 'broadcast_to_favorite_channel',
-  broadcast_method: 'slack',
-  web_hook: ' https://hooks.slack.com/services/YOUR_CUSTOM_WEBHOOK_URL',
-  channel: '#channel_where_to_broadcast_to',
-  bot_name: 'bot username',
-  row: 0
-}
-```
-
-3. You must restart the bot process
-
-## Add Discord broadcast channel
-
-1. Create a bot with access to your Discord server, and get the token: [Creating a discord bot & getting a token](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
-2. Get the `channel_id` of the channel you want to broadcast to in the url of your web browser when you are connecting to this channel: https://discordapp.com/channels/1234567890
-3. Fill the `config.js` connectors section with a new connector:
-
-```
-{
-  text: 'my favorite channel',
-  callback_data: 'broadcast_to_favorite_channel',
-  broadcast_method: 'discord',
-  token: 'YOUR_BOT_TOKEN',
-  channel_id: '1234567890',
-  row: 0
-}
-```
-
-4. You must restart the bot process
