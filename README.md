@@ -1,6 +1,6 @@
 # This version is for a tailor-made version for a user in telegram @iPad8964 as his channels for IOS had been regularly blocked. And required a mirror fowarding as required.
 
-# This version had been made for telegram mirroring only.
+This version had been made for telegram mirroring only and will auto foward messages to other channel in config.
 
 # Please have a shoutout for BotCast Developer for his own #BotCast development.
 
